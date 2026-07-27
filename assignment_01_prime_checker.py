@@ -40,7 +40,7 @@ def prime_no(n):
   for i in range(2,n):
     if n%i ==0:
       return False
-      return 0
+    return True
 if __name__== "__main__":
   number= int(input("Enter a number: "))
 if prime_no(number):
